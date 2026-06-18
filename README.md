@@ -3,15 +3,15 @@
 <!--
 **priyapunde543-dot/Priyapunde543- ...
 
-# Your Name Here
+# priya punde
 
 ### Your tagline here — e.g. "Aspiring developer | Polytechnic student | Python learner"
 
 ---
 
 ## About Me
-
-Write 3–5 sentences about yourself here. Include your course, your college, what you enjoy building, and one fun fact.
+i  About Me:
+Hi, I am priya. I am a diploma student. I love coding in Python and making websites.
 
 ---
 
@@ -22,7 +22,7 @@ Write 3–5 sentences about yourself here. Include your course, your college, wh
 | Python       | Beginner     |
 | Git & GitHub | Beginner     |
 | Markdown     | Beginner     |
-| Add more...  | ...          |
+| java         |           |
 
 ---
 
@@ -44,4 +44,4 @@ Write 3–5 sentences about yourself here. Include your course, your college, wh
 
 ## Find Me
 
-[LinkedIn](https://linkedin.com/in/your-handle) · [Email](mailto:your-email@example.com)
+[LinkedIn](https://linkedin.com/in/your-handle) · [Email](mailto:your-emailpriyapunde543@gmail.com)
