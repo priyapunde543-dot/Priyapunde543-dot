@@ -22,7 +22,7 @@ Hi, I am priya. I am a diploma student. I love coding in Python and making websi
 | Python       | Beginner     |
 | Git & GitHub | Beginner     |
 | Markdown     | Beginner     |
-| java         |           |
+| java         | Beginner     |
 
 ---
 
