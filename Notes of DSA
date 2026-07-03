@@ -3,8 +3,19 @@
     ii)Binary search
  i) Linear search
 Linear Search is a searching technique it check list one by one can find the required element
-1 start with first element
+1 start with first element.
+        #ALGORITHM
 2 compare each with assume/ required value
 3 element can match the searching are stop but they cannot match it continued 
 4 repeate 2 and 3 process
 5 element found  stop
+ii) Binary search
+    Binary Search is always use to find an element in the sorted array,
+it work repetedly divide to range in two parts.
+        #ALGORITHM
+1 Search middle element
+2 compare this element with target value
+3 both are equal then search is finish
+4 but are not match value is small then it shift to left half
+5 value is large shift it to right half
+6 repeate all methods to found elemnt and search range becomes empty
