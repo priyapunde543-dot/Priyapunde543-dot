@@ -27,12 +27,12 @@ it work repetedly divide to range in two parts.
 
 
 2) SORTING TYPES:-
-    i)   Bubble sort
-    ii)  Selection sort
-    iii) Bubble Sort
-    iv)  Insertion Sort
-    v)   Merge Sort
-    vi)  Quick Sort
+i   Bubble Sort
+ii  Selection Sort
+iii Insertion Sort
+iv  Merge Sort
+v   Quick Sort
+    
 
     i) Bubble sort
         Bubble Sort is a simple sorting algorithm .they repeatedly compares two target elements,
@@ -45,6 +45,120 @@ This process continues until the entire array is sorted,It is called Bubble Sort
 3 then first element is greater, swap it
 4 Continue comparing adjacent elements up to the end of the array
 5 Repeate the process for the remaining unsorted part
-6 Stop when no more swaps it is complete.
+6 Stop when no more swaps it is complete
+7 finish the sorting
+
+* Space Complexity
+O(1) (uses constant extra memory)
+
+#Advantages
+i Easy to understand and implement
+ii Suitable for small datasets
+
+#Disadvantages
+i Slow for large datasets
+ii Performs many unnecessary comparisons and swaps
+
 
     ii)  Selection sort
+    Selection Sort is a simple sorting algorithm that repeatedly finds the smallest element from the 
+unsorted part of the array and places it at the beginning.
+
+#ALGORITHM
+1 Start with first element
+2 Find the smallest element in the unsorted part
+3 Swap it with the first unsorted element
+4 go to the sorted value on one position to the right
+5 Repeat until the array is sorted
+6 finish the sorting
+
+* Space Complexity
+O(1) (constant extra memory)
+
+#Advantages
+i Easy to understand and implement
+ii Uses fewer swaps than Bubble Sort
+iii Works well for small datasets
+
+#Disadvantages
+i Slow for large datasets
+ii Less efficient than Merge Sort or Quick Sort
+
+
+    iii)Insertion Sort
+Insertion Sort is a simple sorting method where elements are sorted by inserting each element into 
+its correct position in the already sorted part of the array,It works arranging playing cards in your hands.
+
+#ALGORITHM
+1 Assume first element is sorted.
+2 take the next element (value).
+3 Compare with elements in the sorted part.
+4 Shift bigger elements one position to the right.
+5 Insert the value in the correct position.
+6 Repeat for all elements.
+7 finish the sorting
+
+*Space Complexity
+O(1) (in-place sorting)
+
+#Advantages
+i Very efficient for small sorted arrays
+ii Simple to implement.
+iii Works in real-time (data comes one by one)
+
+#Disadvantages
+i Slow for large datasets
+ii Requires shifting of elements (costly for big arrays)
+
+
+    iii)Merge Sort
+
+Merge Sort is a Divide and Conquer sorting algorithm. It divides the array 
+into smaller halves, sorts each half, and then merges the sorted halves into one sorted array.
+
+#ALGORITHM
+1 Divide the array into two parts.
+2 sort the left half
+3 sort the right half.
+4 Merge the two sorted oarts.
+5 Repeat process the entire array is sorted
+6 finish the sorting.
+
+Space Complexity
+O(n) (extra memory is needed for merging)
+
+Advantages
+i Fast and efficient for large datasets
+ii Stable sorting 
+
+Disadvantages
+i Requires extra memory (O(n)).
+ii More complex than Bubble, Selection, or Insertion Sort
+
+
+iii)Quick Sort 
+Quick Sort is a fast sorting algorithm based on Divide and Conquer,
+It selects a pivot element, then arranges elements into two parts.
+
+#ALGORITHM
+1 Choose a pivot element
+2 Divide array into two parts
+3 smaller than pivot
+4 greater than pivot
+5 Recursively apply Quick Sort on both parts
+6 Combine results
+7 finish sorting
+
+Space Complexity
+O(log n) (recursive stack)
+Worst case: O(n)
+
+Advantages
+i Very fast in practice
+ii Requires less extra memory than Merge Sort
+iii Good for large datasets
+
+Disadvantages
+i Worst case is O(n²)
+ii Not stable (does not preserve order of equal elements)
+iii Performance depends on pivot selection
