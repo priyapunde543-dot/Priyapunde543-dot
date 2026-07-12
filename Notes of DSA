@@ -162,3 +162,16 @@ Disadvantages
 i Worst case is O(n²)
 ii Not stable (does not preserve order of equal elements)
 iii Performance depends on pivot selection
+
+
+        3) ARRAY:-
+i)Array is an coolection of element is an store in together.
+ii)Each element have an index
+iii) Access element using index
+iv) In the array havin insert the element are use .append
+v)insert a element any position are use .insert( ) are use
+vi) delete a element are use .remove() or pop() are use
+vii) To find a length in array are use len() use
+viii) max() use to maximum value find
+ix) min() use to minimum value find
+x) reverse() use to reverse to string
